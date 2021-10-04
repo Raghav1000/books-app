@@ -46,30 +46,3 @@ const displayData = (fetchApiData) => {
 };
 
 fetchApi();
-
-//function fetchData() {
-//  fetch("./booksData.json")
-//    .then((response) => {
-//      return response.json();
-//    })
-//    .then((items) => {
-//      console.log(items);
-
-//      const renderData = items
-//        .map((item) => {
-//          return `
-//        <div class="bookData">
-//         <img src=${item.img} />
-//         <h1> ${item.title} </h1>
-//         <h4> ${item.subtitle}</h4>
-//         <p> Author : ${item.author}</p>
-//         <h6> Rating : ${item.rating}</h6>
-//        </div>
-//`;
-//        })
-//        .join("");
-//      document.getElementById("bookData").innerHTML = renderData;
-//    });
-//}
-
-//fetchData();
